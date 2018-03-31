@@ -33,4 +33,10 @@ public class TestHand {
         assertEquals(14, hand.getHandValue());
     }
 
+    @Test
+    public void handHasSuit(){
+        hand.addCard(card);
+        assertEquals(Suit.SPADES, hand.getCards().get(0).getSuit());
+    }
+
 }

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1fee2bb-7b1c-4c50-8cb9-03c7200481a2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestHand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestHand.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -44,8 +43,8 @@
       <file leaf-file-name="TestHand.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestHand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="219">
+              <caret line="38" column="66" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#341#342#0" expanded="true" />
@@ -513,8 +512,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Suit.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestCard.java" />
         <option value="$PROJECT_DIR$/src/main/java/Card.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestHand.java" />
         <option value="$PROJECT_DIR$/src/main/java/Hand.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestHand.java" />
       </list>
     </option>
   </component>
@@ -592,7 +591,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestHand.handHasValue">
+  <component name="RunManager" selected="JUnit.TestHand.handHasSuit">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -616,13 +615,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestCard.cardHasValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHand.cardIsAdded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CardGame_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestCard" />
-      <option name="METHOD_NAME" value="cardHasValue" />
+      <option name="MAIN_CLASS_NAME" value="TestHand" />
+      <option name="METHOD_NAME" value="cardIsAdded" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -633,13 +632,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestHand.cardIsAdded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHand.handHasSuit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CardGame_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestHand" />
-      <option name="METHOD_NAME" value="cardIsAdded" />
+      <option name="METHOD_NAME" value="handHasSuit" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -736,19 +735,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestCard.cardHasValue" />
       <item itemvalue="JUnit.TestCard.cardHasName" />
       <item itemvalue="JUnit.TestHand.valueStartsZero" />
       <item itemvalue="JUnit.TestHand.cardIsAdded" />
       <item itemvalue="JUnit.TestHand.handHasValue" />
+      <item itemvalue="JUnit.TestHand.handHasSuit" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestHand.handHasSuit" />
         <item itemvalue="JUnit.TestHand.handHasValue" />
         <item itemvalue="JUnit.TestHand.cardIsAdded" />
         <item itemvalue="JUnit.TestHand.valueStartsZero" />
         <item itemvalue="JUnit.TestCard.cardHasName" />
-        <item itemvalue="JUnit.TestCard.cardHasValue" />
       </list>
     </recent_temporary>
   </component>
@@ -789,6 +788,9 @@
     </history-entry>
     <history-entry file="TestHand_cardIsAdded - 2018.03.31 at 12h 09m 11s.xml">
       <configuration name="TestHand.cardIsAdded" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestHand_handHasValue - 2018.03.31 at 12h 15m 49s.xml">
+      <configuration name="TestHand.handHasValue" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -915,8 +917,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestHand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="219">
+          <caret line="38" column="66" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#341#342#0" expanded="true" />
