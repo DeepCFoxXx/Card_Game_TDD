@@ -50,4 +50,12 @@ public class TestGame {
         assertEquals("Player 2", winner.getName());
     }
 
+    @Test
+    public void checkDraw(){
+        player1.addCardToHand(new Card(Suit.CLUBS, Rank.ACE));
+        player2.addCardToHand(new Card(Suit.DIAMONDS, Rank.ACE));
+        Player winner = game.checkWinner();
+        assertEquals(null, winner);
+    }
+
 }

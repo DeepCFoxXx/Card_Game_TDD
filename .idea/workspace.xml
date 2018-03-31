@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1fee2bb-7b1c-4c50-8cb9-03c7200481a2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestGame.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Game.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="337">
-              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -37,8 +36,8 @@
       <file leaf-file-name="TestGame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="40" column="40" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="40" />
+            <state relative-caret-position="401">
+              <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -510,8 +509,8 @@
         <option value="$PROJECT_DIR$/src/test/java/TestPlayer.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestDeck.java" />
         <option value="$PROJECT_DIR$/src/main/java/Deck.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestGame.java" />
         <option value="$PROJECT_DIR$/src/main/java/Game.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestGame.java" />
       </list>
     </option>
   </component>
@@ -589,7 +588,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestGame.player2Wins">
+  <component name="RunManager" selected="JUnit.TestGame.checkDraw">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -630,6 +629,23 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="TestGame.checkDraw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CardGame_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestGame" />
+      <option name="METHOD_NAME" value="checkDraw" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="TestGame.player1Wins" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CardGame_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -654,23 +670,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestGame" />
       <option name="METHOD_NAME" value="player2Wins" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TestPlayer.playerCanTakeCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CardGame_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestPlayer" />
-      <option name="METHOD_NAME" value="playerCanTakeCard" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -733,19 +732,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestPlayer.playerCanTakeCard" />
       <item itemvalue="JUnit.All in CardGame_test" />
       <item itemvalue="JUnit.TestDeck.canGetCard" />
       <item itemvalue="JUnit.TestGame.player1Wins" />
       <item itemvalue="JUnit.TestGame.player2Wins" />
+      <item itemvalue="JUnit.TestGame.checkDraw" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestGame.checkDraw" />
         <item itemvalue="JUnit.TestGame.player2Wins" />
         <item itemvalue="JUnit.All in CardGame_test" />
         <item itemvalue="JUnit.TestGame.player1Wins" />
         <item itemvalue="JUnit.TestDeck.canGetCard" />
-        <item itemvalue="JUnit.TestPlayer.playerCanTakeCard" />
       </list>
     </recent_temporary>
   </component>
@@ -763,18 +762,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestHand_cardIsAdded - 2018.03.31 at 12h 09m 11s.xml">
-      <configuration name="TestHand.cardIsAdded" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestHand_handHasValue - 2018.03.31 at 12h 15m 49s.xml">
-      <configuration name="TestHand.handHasValue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestHand_handHasSuit - 2018.03.31 at 12h 20m 39s.xml">
-      <configuration name="TestHand.handHasSuit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestPlayer_playerHasName - 2018.03.31 at 12h 31m 26s.xml">
-      <configuration name="TestPlayer.playerHasName" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestPlayer_playerCanTakeCard - 2018.03.31 at 12h 43m 09s.xml">
       <configuration name="TestPlayer.playerCanTakeCard" configurationId="JUnit" />
     </history-entry>
@@ -793,6 +780,18 @@
     <history-entry file="TestDeck_canGetCard - 2018.03.31 at 13h 33m 32s.xml">
       <configuration name="TestDeck.canGetCard" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestGame_player1Wins - 2018.03.31 at 13h 55m 42s.xml">
+      <configuration name="TestGame.player1Wins" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CardGame_test - 2018.03.31 at 13h 55m 47s.xml">
+      <configuration name="All in CardGame_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestGame_player2Wins - 2018.03.31 at 13h 57m 47s.xml">
+      <configuration name="TestGame.player2Wins" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestGame_checkDraw - 2018.03.31 at 13h 58m 52s.xml">
+      <configuration name="TestGame.checkDraw" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -806,12 +805,12 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info anchor="bottom" id="Build" weight="0.27448276" />
       <window_info anchor="right" id="Gradle" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -996,14 +995,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Game.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
-          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="40" column="40" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="40" />
+        <state relative-caret-position="401">
+          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
