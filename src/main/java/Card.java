@@ -19,4 +19,8 @@ public class Card {
     public int getValue() {
         return this.rank.getValue();
     }
+
+    public String prettyName() {
+        return (rank.getName() + " of " + suit.getSuit());
+    }
 }
