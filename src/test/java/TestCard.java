@@ -17,4 +17,9 @@ public class TestCard {
         assertEquals(Suit.SPADES, card.getSuit());
     }
 
+    @Test
+    public void cardHasRank(){
+        assertEquals(Rank.ACE, card.getRank());
+    }
+
 }
