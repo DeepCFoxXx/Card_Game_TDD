@@ -592,7 +592,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestHand.cardIsAdded">
+  <component name="RunManager" selected="JUnit.TestHand.handHasValue">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -606,23 +606,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestCard" />
       <option name="METHOD_NAME" value="cardHasName" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TestCard.cardHasRank" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CardGame_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestCard" />
-      <option name="METHOD_NAME" value="cardHasRank" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -657,6 +640,23 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestHand" />
       <option name="METHOD_NAME" value="cardIsAdded" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestHand.handHasValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CardGame_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestHand" />
+      <option name="METHOD_NAME" value="handHasValue" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -736,19 +736,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestCard.cardHasRank" />
       <item itemvalue="JUnit.TestCard.cardHasValue" />
       <item itemvalue="JUnit.TestCard.cardHasName" />
       <item itemvalue="JUnit.TestHand.valueStartsZero" />
       <item itemvalue="JUnit.TestHand.cardIsAdded" />
+      <item itemvalue="JUnit.TestHand.handHasValue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestHand.handHasValue" />
         <item itemvalue="JUnit.TestHand.cardIsAdded" />
         <item itemvalue="JUnit.TestHand.valueStartsZero" />
         <item itemvalue="JUnit.TestCard.cardHasName" />
         <item itemvalue="JUnit.TestCard.cardHasValue" />
-        <item itemvalue="JUnit.TestCard.cardHasRank" />
       </list>
     </recent_temporary>
   </component>

@@ -27,4 +27,10 @@ public class TestHand {
         assertEquals(1, hand.getCards().size());
     }
 
+    @Test
+    public void handHasValue(){
+        hand.addCard(card);
+        assertEquals(14, hand.getHandValue());
+    }
+
 }
