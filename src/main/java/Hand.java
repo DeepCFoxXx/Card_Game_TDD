@@ -16,4 +16,14 @@ public class Hand {
     public int getHandValue() {
         return this.value;
     }
+
+    public void addCard(Card card) {
+        this.cards.add(card);
+        this.value += card.getValue();
+    }
+
+    public ArrayList<Card> getCards() {
+        return new ArrayList<Card>(this.cards);
+    }
+
 }
