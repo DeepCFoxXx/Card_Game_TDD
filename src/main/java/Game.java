@@ -12,4 +12,12 @@ public class Game {
         this.ui = ui;
     }
 
+    public void deal(){
+        for (Player player : players){
+            for(int i = 0; i<2; i++) {
+                player.addCardToHand(deck.getCard());
+            }
+        }
+    }
+
 }
