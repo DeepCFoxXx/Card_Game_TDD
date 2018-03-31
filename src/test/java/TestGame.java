@@ -27,35 +27,36 @@ public class TestGame {
             game = new Game(ui, deck, players);
         }
 
-//        @Test
-//        public void checkDeal(){
-//            game.deal();
-//            assertEquals(2, player1.getHand().getNumberOfCards());
-//            assertEquals(2, player2.getHand().getNumberOfCards());
-//        }
 
-    @Test
-    public void player1Wins(){
-        player1.addCardToHand(new Card(Suit.SPADES, Rank.ACE));
-        player2.addCardToHand(new Card(Suit.DIAMONDS, Rank.EIGHT));
-        Player winner = game.checkWinner();
-        assertEquals("Player 1", winner.getName());
-    }
+        @Test
+        public void checkDeal(){
+            game.deal();
+            assertEquals(2, player1.getHand().getNumberOfCards());
+            assertEquals(2, player2.getHand().getNumberOfCards());
+        }
 
-    @Test
-    public void player2Wins(){
-        player1.addCardToHand(new Card(Suit.SPADES, Rank.EIGHT));
-        player2.addCardToHand(new Card(Suit.DIAMONDS, Rank.ACE));
-        Player winner = game.checkWinner();
-        assertEquals("Player 2", winner.getName());
-    }
+        @Test
+        public void player1Wins(){
+            player1.addCardToHand(new Card(Suit.SPADES, Rank.ACE));
+            player2.addCardToHand(new Card(Suit.DIAMONDS, Rank.EIGHT));
+            Player winner = game.checkWinner();
+            assertEquals("Player 1", winner.getName());
+        }
 
-    @Test
-    public void checkDraw(){
-        player1.addCardToHand(new Card(Suit.CLUBS, Rank.ACE));
-        player2.addCardToHand(new Card(Suit.DIAMONDS, Rank.ACE));
-        Player winner = game.checkWinner();
-        assertEquals(null, winner);
-    }
+        @Test
+        public void player2Wins(){
+            player1.addCardToHand(new Card(Suit.SPADES, Rank.EIGHT));
+            player2.addCardToHand(new Card(Suit.DIAMONDS, Rank.ACE));
+            Player winner = game.checkWinner();
+            assertEquals("Player 2", winner.getName());
+        }
+
+        @Test
+        public void checkDraw(){
+           player1.addCardToHand(new Card(Suit.CLUBS, Rank.ACE));
+           player2.addCardToHand(new Card(Suit.DIAMONDS, Rank.ACE));
+           Player winner = game.checkWinner();
+           assertEquals(null, winner);
+        }
 
 }
