@@ -20,4 +20,14 @@ public class Game {
         }
     }
 
+    public Player checkWinner() {
+        Player player1 = players.get(0);
+        Player player2 = players.get(1);
+        if (player1.getHandValue() == player2.getHandValue()) {
+            return null;
+        } else {
+            return player1.getHandValue() > player2.getHandValue() ? player1 : player2;
+        }
+    }
 }
+

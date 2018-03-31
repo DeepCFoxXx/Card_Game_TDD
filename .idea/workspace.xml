@@ -25,20 +25,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="337">
+              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestGame.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestGame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="363">
+              <caret line="40" column="40" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -589,7 +589,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestDeck.canGetCard">
+  <component name="RunManager" selected="JUnit.All in CardGame_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -647,13 +647,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestPlayer.playerCanTakeCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestGame.player1Wins" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CardGame_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestPlayer" />
-      <option name="METHOD_NAME" value="playerCanTakeCard" />
+      <option name="MAIN_CLASS_NAME" value="TestGame" />
+      <option name="METHOD_NAME" value="player1Wins" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -664,13 +664,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestPlayer.playerHandValueIs17" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPlayer.playerCanTakeCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CardGame_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestPlayer" />
-      <option name="METHOD_NAME" value="playerHandValueIs17" />
+      <option name="METHOD_NAME" value="playerCanTakeCard" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -733,19 +733,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestPlayer.playerHandValueIs17" />
       <item itemvalue="JUnit.TestPlayer.playerCanTakeCard" />
       <item itemvalue="JUnit.TestDeck.deckHas52Cards" />
       <item itemvalue="JUnit.All in CardGame_test" />
       <item itemvalue="JUnit.TestDeck.canGetCard" />
+      <item itemvalue="JUnit.TestGame.player1Wins" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestDeck.canGetCard" />
         <item itemvalue="JUnit.All in CardGame_test" />
+        <item itemvalue="JUnit.TestGame.player1Wins" />
+        <item itemvalue="JUnit.TestDeck.canGetCard" />
         <item itemvalue="JUnit.TestPlayer.playerCanTakeCard" />
         <item itemvalue="JUnit.TestDeck.deckHas52Cards" />
-        <item itemvalue="JUnit.TestPlayer.playerHandValueIs17" />
       </list>
     </recent_temporary>
   </component>
@@ -993,20 +993,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestGame.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="337">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Game.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="363">
+          <caret line="40" column="40" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
