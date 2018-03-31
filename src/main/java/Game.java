@@ -29,5 +29,14 @@ public class Game {
             return player1.getHandValue() > player2.getHandValue() ? player1 : player2;
         }
     }
+
+    public void play() {
+        deal();
+        ui.showDealtCard(players);
+        Player winner = checkWinner();
+        ui.showResults(players);
+        ui.showWinner(winner);
+
+    }
 }
 
