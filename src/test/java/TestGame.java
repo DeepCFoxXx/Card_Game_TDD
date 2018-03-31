@@ -42,4 +42,12 @@ public class TestGame {
         assertEquals("Player 1", winner.getName());
     }
 
+    @Test
+    public void player2Wins(){
+        player1.addCardToHand(new Card(Suit.SPADES, Rank.EIGHT));
+        player2.addCardToHand(new Card(Suit.DIAMONDS, Rank.ACE));
+        Player winner = game.checkWinner();
+        assertEquals("Player 2", winner.getName());
+    }
+
 }

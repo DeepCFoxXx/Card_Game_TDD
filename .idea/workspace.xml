@@ -589,7 +589,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in CardGame_test">
+  <component name="RunManager" selected="JUnit.TestGame.player2Wins">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -630,13 +630,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestDeck.deckHas52Cards" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestGame.player1Wins" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CardGame_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestDeck" />
-      <option name="METHOD_NAME" value="deckHas52Cards" />
+      <option name="MAIN_CLASS_NAME" value="TestGame" />
+      <option name="METHOD_NAME" value="player1Wins" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -647,13 +647,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestGame.player1Wins" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestGame.player2Wins" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CardGame_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestGame" />
-      <option name="METHOD_NAME" value="player1Wins" />
+      <option name="METHOD_NAME" value="player2Wins" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -734,18 +734,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.TestPlayer.playerCanTakeCard" />
-      <item itemvalue="JUnit.TestDeck.deckHas52Cards" />
       <item itemvalue="JUnit.All in CardGame_test" />
       <item itemvalue="JUnit.TestDeck.canGetCard" />
       <item itemvalue="JUnit.TestGame.player1Wins" />
+      <item itemvalue="JUnit.TestGame.player2Wins" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestGame.player2Wins" />
         <item itemvalue="JUnit.All in CardGame_test" />
         <item itemvalue="JUnit.TestGame.player1Wins" />
         <item itemvalue="JUnit.TestDeck.canGetCard" />
         <item itemvalue="JUnit.TestPlayer.playerCanTakeCard" />
-        <item itemvalue="JUnit.TestDeck.deckHas52Cards" />
       </list>
     </recent_temporary>
   </component>
