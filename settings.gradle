@@ -1,0 +1,4 @@
+rootProject.name = 'CardGame'
+include 'untitled'
+findProject(':untitled')?.name = 'CardGame'
+
