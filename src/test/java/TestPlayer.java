@@ -23,4 +23,17 @@ public class TestPlayer {
         assertEquals("Kara", player.getName());
     }
 
+//    @Test
+//    public void playerCanTakeCard(){
+//        player.addCardToHand(card);
+//        assertEquals(1, player.getHand().getNumberOfCards());
+//    }
+
+    @Test
+    public void playerHandValueIs17(){
+        player.addCardToHand(card);
+        player.addCardToHand(card2);
+        assertEquals(28, player.getHandValue());
+    }
+
 }

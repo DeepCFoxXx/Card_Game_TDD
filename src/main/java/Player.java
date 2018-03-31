@@ -11,4 +11,18 @@ public class Player {
     public String getName() {
         return name;
     }
+
+    public void addCardToHand(Card card) {
+        this.hand.addCard(card);
+    }
+
+    public Object getHand() {
+        return hand;
+    }
+
+    public int getHandValue() {
+        return this.hand.getHandValue();
+    }
+
+
 }
