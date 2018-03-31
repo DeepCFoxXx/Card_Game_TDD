@@ -34,6 +34,22 @@ public class Ui {
         pause();
     }
 
+    public void showWinner(Player winner){
+        if (!winner.equals(null)){
+            System.out.println(winner.getName() + " wins.");
+        } else {
+            System.out.println("It's a draw");
+        }
+        goodbye();
+    }
+
+
+    public void goodbye() {
+        System.out.println("\nGoodbye");
+        System.exit(1);
+
+    }
+
 }
 
 
